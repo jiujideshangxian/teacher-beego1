@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"BeegoProject0603/models"
+	"beegolaoshi/models"
 	"encoding/json"
 	"fmt"
 	"github.com/astaxie/beego"

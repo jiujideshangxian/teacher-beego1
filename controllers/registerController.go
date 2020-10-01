@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"BeegoProject0603/db_mysql"
-	"BeegoProject0603/models"
+	"beegolaoshi/db_mysql"
+	"beegolaoshi/models"
 	"encoding/json"
 	"fmt"
 	"github.com/astaxie/beego"

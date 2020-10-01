@@ -1,7 +1,7 @@
 package db_mysql
 
 import (
-	"BeegoProject0603/models"
+	"beegolaoshi/models"
 	"crypto/md5"
 	"database/sql"
 	"encoding/hex"

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"BeegoProject0603/db_mysql"
-	_ "BeegoProject0603/routers"
+	"beegolaoshi/db_mysql"
+	_ "beegolaoshi/routers"
 	"github.com/astaxie/beego"
 )
 
