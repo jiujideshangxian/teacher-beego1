@@ -13,6 +13,7 @@ func main() {
 
 	//2、其他配置
 fmt.Println("hi")
+	fmt.Println("hi1")
 	//3、启动应用
 	beego.Run()//代码简洁
 }
