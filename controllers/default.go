@@ -36,19 +36,19 @@ func (c *MainController) Get() {
 /**
  * 该方法用于处理post请求
  */
-//func (c *MainController) Post(){
-//	//1、接收（解析)post请求的参数
-//	name := c.Ctx.Request.FormValue("name")
-//	age := c.Ctx.Request.FormValue("age")
-//	sex := c.Ctx.Request.FormValue("sex")
-//	fmt.Println(name,age,sex)
-//	//2、进行数据校验
-//	if name != "admin" && age != "18"{
-//		c.Ctx.WriteString("数据校验失败")
-//		return
-//	}
-//	c.Ctx.WriteString("数据校验成功")
-//}
+ func (c *MainController) Post(){
+ //1、接收（解析)post请求的参数
+ 	name := c.Ctx.Request.FormValue("name")
+ 	age := c.Ctx.Request.FormValue("age")
+ 	sex := c.Ctx.Request.FormValue("sex")
+ 	fmt.Println(name,age,sex)
+ 	//2、进行数据校验
+ 	if name != "admin" && age != "18"{
+ 		c.Ctx.WriteString("数据校验失败")
+ 		return
+ 	}
+ 	c.Ctx.WriteString("数据校验成功")
+////}
 
 /**
  * 该方法用于处理post类型的请求
