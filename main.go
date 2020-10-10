@@ -17,6 +17,7 @@ fmt.Println("hi")
 	fmt.Println("hi1")
 	fmt.Println("hi1")
 	fmt.Println("准备了")
+	fmt.Println("要开始了")
 	//3、启动应用
 	beego.Run()//代码简洁
 }
